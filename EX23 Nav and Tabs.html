@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container-fluid">
+    <h2>Nav and Tabs</h2>
+    <ol class="nav nav-tabs">
+        <li class="nav-item active"><a href="#basic" data-bs-toggle="tab" class="nav-link"> <span class="nav-text">Basic Details</span> </a></li>
+        <li class="nav-item"><a href="#preview" data-bs-toggle="tab" class="nav-link"> <span class="nav-text">Preview</span> </a></li>
+        <li class="nav-item"><a href="#description" data-bs-toggle="tab" class="nav-link"> <span class="nav-text">Description</span> </a></li>
+    </ol>
+     
+    <ul class="nav nav-pill mt-5">
+        <li class="nav-item m-5"><button data-bs-target="#basic" class="nav-link bg-danger"data-bs-toggle="pill">basic</button></li>
+        <li class="nav-item m-5"><button data-bs-target="#preview" class="nav-link bg-danger"data-bs-toggle="pill">img</button></li>
+        <li class="nav-item m-5"> <button data-bs-target="#description" class="nav-link bg-danger" data-bs-toggle="pill">full data</button></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="basic">
+            <dl>
+                <dt>Name</dt>
+                <dd>Real ME Mobile</dd>
+                <dt>Price</dt>
+                <dd>&#8377; 9000/-</dd>
+            </dl>
+        </div>
+        <div class="tab-pane" id="preview">
+            <img src="../ASSETS/poco (2).jpg" width="200" height="300">
+        </div>
+        <div class="tab-pane" id="description">
+            <ul>
+                <li>Feature-1</li>
+                <li>Feature-2</li>
+                <li>Feature-3</li>
+                <li>Feature-4</li>
+                <li>
+                    <pre>NETWORK	Technology	
+                    GSM / HSPA / LTE
+                    LAUNCH	Announced	2021, March 22
+                    Status	Available. Released 2021, March 24
+                    BODY	Dimensions	165.3 x 76.8 x 9.4 mm (6.51 x 3.02 x 0.37 in)
+                    Weight	215 g (7.58 oz)
+                    Build	Glass front (Gorilla Glass 6), plastic back
+                    SIM	Hybrid Dual SIM (Nano-SIM, dual stand-by)
+                         IP53, dust and splash resistant
+                    DISPLAY	Type	IPS LCD, 120Hz, HDR10, 450 nits (typ)
+                    Size	6.67 inches, 107.4 cm2 (~84.6% screen-to-body ratio)
+                    Resolution	1080 x 2400 pixels, 20:9 ratio (~395 ppi density)
+                    Protection	Corning Gorilla Glass 6
+                    PLATFORM	OS	Android 11, upgradable to Android 12, MIUI 13 for POCO
+                    Chipset	Qualcomm Snapdragon 860 (7 nm)
+                    CPU	Octa-core (1x2.96 GHz Kryo 485 Gold & 3x2.42 GHz Kryo 485 Gold & 4x1.78 GHz Kryo 485 Silver)
+                    GPU	Adreno 640
+                    MEMORY	Card slot	microSDXC (uses shared SIM slot)
+                    Internal	128GB 6GB RAM, 128GB 8GB RAM, 256GB 6GB RAM, 256GB 8GB RAM
+                         UFS 3.1
+                    MAIN CAMERA	Quad	48 MP, f/1.8, (wide), 1/2.0", 0.8µm, PDAF
+                    8 MP, f/2.2, 119˚ (ultrawide), 1.0µm
+                    2 MP, f/2.4, (macro)
+                    2 MP, f/2.4, (depth)
+                    Features	Dual-LED flash, HDR, panorama
+                    Video	4K@30fps, 1080p@30/60/120/240fps, 1080p@960fps, gyro-EIS
+                    SELFIE CAMERA	Single	20 MP, f/2.2, (wide), 1/3.4", 0.8µm
+                    Features	HDR, panorama
+                    Video	1080p@30fps
+                    SOUND	Loudspeaker	Yes, with stereo speakers
+                    3.5mm jack	Yes
+                         24-bit/192kHz audio
+                    COMMS	WLAN	Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct
+                    Bluetooth	5.0, A2DP, LE
+                    Positioning	GPS, GLONASS, GALILEO, BDS
+                    NFC	Yes (market/region dependent)
+                    Infrared port	Yes
+                    Radio	FM radio, recording
+                    USB	USB Type-C 2.0, USB On-The-Go
+                    FEATURES	Sensors	Fingerprint (side-mounted), accelerometer, gyro, proximity, compass
+                    BATTERY	Type	Li-Po 5160 mAh, non-removable
+                    Charging	33W wired, 59% in 30 min, 100% in 59 min (advertised)
+                    MISC	Colors	Phantom Black, Frost Blue, Metal Bronze
+                    Models	M2102J20SG, M2102J20SI
+                    SAR	0.99 W/kg (head)     0.67 W/kg (body)    
+                    SAR EU	0.57 W/kg (head)     0.90 W/kg (body)    
+                    Price	₹ 20,900 / £ 333.49 / € 389.00 / Rp 3,441,000
+                    TESTS	Performance	AnTuTu: 453223 (v8)
+                    GeekBench: 2574 (v5.1)
+                    GFXBench: 38fps (ES 3.1 onscreen)
+                    Display	Contrast ratio: 1401:1 (nominal)
+                    Camera	Photo / Video
+                    Loudspeaker	-26.1 LUFS (Good)
+                    Battery life	
+Endurance rating 112h</pre>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

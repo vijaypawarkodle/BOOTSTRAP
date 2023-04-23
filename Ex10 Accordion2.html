@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="container-fluid">
+    <h2>Menu</h2>
+    <nav class="w-25">
+        <div class="accordion" id="menu">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button data-bs-target="#electronics" data-bs-toggle="collapse" class="btn btn-dark w-100">Electronics</button>
+                </div>
+                <div class="accordion-collapse collapse show" id="electronics" data-bs-parent="#menu">
+                    <div class="accordion-body">
+                        <div class="btn-group-vertical">
+                            <button class="btn btn-dark mb-2">Televisions</button>
+                            <button class="btn btn-dark mb-2">Mobiles</button>
+                            <button class="btn btn-dark">Watches</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button data-bs-target="#footwear" data-bs-toggle="collapse" class="btn btn-dark w-100">Footwear</button>
+                </div>
+                <div class="accordion-collapse collapse" id="footwear" data-bs-parent="#menu">
+                    <div class="accordion-body">
+                        <div class="btn-group-vertical">
+                            <button class="btn btn-dark mb-2">Casuals</button>
+                            <button class="btn btn-dark mb-2">Sneakers</button>
+                            <button class="btn btn-dark">Boots</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
